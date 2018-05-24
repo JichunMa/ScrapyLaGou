@@ -17,8 +17,8 @@ NEWSPIDER_MODULE = 'ScrapyLaGou.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 # USER_AGENT = 'ScrapyLaGou (+http://www.yourdomain.com)'
 
-# Obey robots.txt rules
-ROBOTSTXT_OBEY = True
+# ROBOTSTXT_OBEY
+ROBOTSTXT_OBEY = False
 
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 # CONCURRENT_REQUESTS = 32
@@ -92,6 +92,6 @@ PAGES = 3
 HOST = '127.0.0.1'
 PORT = 3306
 USER = 'root'
-PASSWORD = 'mamashuolezhegebunenggaosuni'
+PASSWORD = 'mamagaosuwozhegebunengshuo'
 DB = 'lagouInfo'
 TABLE = 'info'
